@@ -53,7 +53,7 @@ nav ul a{
 }
 #info{
     display: grid;
-    grid-template-rows: m ;
+    /* grid-template-rows: 4em 4em 8em 8em; */
     grid-template-columns: 50% 50%;
     justify-content: space-evenly;
     align-content: space-around;
@@ -62,17 +62,15 @@ nav ul a{
 
 
 #info h4{
+    display: grid;
     margin: 1em auto .5em auto;
     height: 3em;
     text-align: center;
     color: rgb(253, 253, 253);
     letter-spacing: 2px;
 }
-#info form {
-    margin: 0;
-    padding: 0;
-}
 #info p{
+    display: grid;
     margin: 0 1em 0 1em;
     height: 12em;
 }
@@ -80,6 +78,17 @@ nav ul a{
     display: grid;
     border: 1px solid rgb(172, 167, 167);
     border-radius: 3%;
+}
+
+#schedule form {
+    align-items: center;
+    display: grid;
+    position: relative;
+    width: auto;
+    margin: 0 auto 110px 20px;
+}
+#schedule input{
+    width: 80%;
 }
 #schedule{
     display: grid;
