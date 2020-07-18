@@ -43,13 +43,13 @@ nav ul a{
     letter-spacing: 4px;
     color: rgb(22, 22, 65);
     animation-name: diveline;
-    animation-duration: 5s;
+    animation-duration: 4s;
 }
 
 @keyframes diveline {
-    0% {top: -10px; opacity: .2;}
-    50% {top: 120px; opacity: .6;}
-    100% {top: 30px; opacity: 1;}
+    0% {top: -10px; opacity: .1;}
+    50% {top: 140px; opacity: .5;}
+    100% {top: 30px; opacity: 1; }
 }
 #info{
     display: grid;
