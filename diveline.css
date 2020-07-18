@@ -1,0 +1,113 @@
+body{
+    background-color: ;
+    margin: 0;
+    
+    background-image: linear-gradient( rgb(114, 152, 192), rgb(98, 98, 224), rgb(32, 32, 148));
+    
+    
+}
+body h3,h4{
+    color: rgb(22, 22, 65);
+}
+#header {
+    background-image: url(images/underwater.jpg);
+    background-position: center top;
+    background-size: 100%;
+    height: 12em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* border-bottom: .2px solid rgb(250, 248, 230) ; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}   
+nav ul{
+    position: relative;
+    left: 70%;
+    top: 25px;
+    
+}
+
+nav ul li{
+    list-style-type: none; 
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+#header h3{
+    position: relative;
+    top: 30px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-size: 3em;
+    letter-spacing: 4px;
+    color: rgb(22, 22, 65);
+    animation-name: diveline;
+    animation-duration: 5s;
+}
+
+@keyframes diveline {
+    0% {top: -10px; opacity: .2;}
+    50% {top: 120px; opacity: .6;}
+    100% {top: 30px; opacity: 1;}
+}
+#info{
+    display: grid;
+    grid-template-rows: m ;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+    align-content: space-around;
+}    
+
+
+
+#info h4{
+    margin: 1em auto .5em auto;
+    height: 3em;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    letter-spacing: 2px;
+}
+#info form {
+    margin: 0;
+    padding: 0;
+}
+#info p{
+    margin: 0 1em 0 1em;
+    height: 12em;
+}
+#tides{
+    display: grid;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 3%;
+}
+#schedule{
+    display: grid;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 3%;
+}
+}
+#history{
+    ;
+    height: 30em;
+    border-bottom: 1.5px solid white;
+}
+#history h3{
+    text-align: center;
+    margin: 1em auto .5em auto;
+    color: rgb(253, 253, 253);
+    letter-spacing: 2px;
+}
+#history p{
+
+}
+#gallery{
+    height: 12em;
+    background-image: url(images/diver.jpg);
+    background-position: center right;
+    
+}
+#social{
+    height: 12em;
+    
+}
