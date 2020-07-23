@@ -93,7 +93,7 @@ nav ul a{
     align-items: flex-start;
     display: grid;
     position: relative;
-    width: 80%;
+    width: 70%;
     /* margin: 0 auto 110px 20px; */
     /* margin: 0 1em 0 .5em; */
     height: 50%;
@@ -161,6 +161,7 @@ form #button {
     background-position: center right;
     
 }
+
 #social{
     height: 12em;
     
