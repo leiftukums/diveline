@@ -4,9 +4,12 @@ body{
     height: 180vh;
     width: auto;
     
-    background-image: linear-gradient( rgb(48, 81, 226), rgb(198, 198, 241), rgb(182, 182, 240));
+    background-image: linear-gradient( rgb(92, 119, 243), rgb(198, 198, 241), rgb(202, 202, 243));
     
     
+}
+*p{
+    font-family: 'Montserrat', sans-serif;
 }
 body h3,h4{
     color: rgb(34, 34, 105);
@@ -68,16 +71,16 @@ nav ul a{
     margin: 1em auto -.8em auto;
     height: 3em;
     text-align: center;
-    color: rgb(32, 30, 30);
+    color: rgb(209, 214, 236);
     letter-spacing: 2px;
     font-size: 1.6em;
 }
 #tides p{
     margin: 0 1em 0 1em;
     height: 13em ;
-    color: rgba(23, 24, 31, 0.76);
+    color:rgb(224, 218, 218);
     letter-spacing: 1px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 #tides{
@@ -86,27 +89,32 @@ nav ul a{
 }
 #tides a{
     text-decoration: none;
-    color: rgba(189, 181, 67, 0.76);
+    color: rgba(102, 97, 105, 0.938);
     height: 1em;
     font-style: oblique;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
 #tides a:hover{
     color: white;
 }
 #schedule h4{
-    margin: 1em auto -1em auto;
+    margin: 1.5em auto -1em auto;
     height: 2em;
     font-size: 1.6em;
     font-family: 'Questrial', sans-serif;
+    color: rgb(224, 218, 218);
+    letter-spacing: 1.6px;
     
 }
 #schedule p{
     position: relative;
-    top: 2em;
+    top: .6em;
     margin-bottom: 30px;
     height: auto;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(224, 218, 218);
 }
 #schedule{
     display: grid;
@@ -114,16 +122,17 @@ nav ul a{
 }
 form{
     position: relative;
-    /* border: 1px solid blue; */
+    border: .1px solid rgb(227, 227, 236);
     border-radius: 1em;
     padding: 1em;
     top: 20px;
     text-align: center;
     position: relative;
-    width: 80%;
+    width: 70%;
     margin: auto;
     height: auto;
     background-color: whitesmoke;
+    background-image: linear-gradient(to bottom right, rgb(175, 175, 230), rgb(160, 160, 245));
     
 }
 form label{
@@ -133,14 +142,15 @@ form label{
     letter-spacing: 1px;
     color: rgba(17, 18, 22, 0.76);
     text-align: center;
-    margin: 10px auto 2px auto;
+    margin: 10px auto 16px auto;
 }
 form input{
     width: 90%;
     height: 1.8em;
     align-items: center;
     background-color: rgb(237, 238, 253);
-    margin: 2px auto 2px auto;
+    margin: 8px auto 8px auto;
+    border-style: none;
     
 }
 form #button {
@@ -174,15 +184,17 @@ form #button {
 }
 #about-us h3{
     text-align: center;
-    margin: .5em auto 0 auto;
+    margin: 2.2em auto 0 auto;
     color: rgb(253, 253, 253);
     letter-spacing: 2px;
     font-family: 'Questrial', sans-serif;
     height: 2em;
-    ;
+    letter-spacing: 1.6px;
 }
 #about-us p{
+    color: rgba(102, 97, 105, 0.938);
     margin: auto 1em auto 1em;
+    font-family: 'Montserrat', sans-serif;
 
 }
 #gallery{
@@ -191,6 +203,8 @@ form #button {
     /* background-image: url(images/diver.jpg);  */
 } 
 #gallery p{
+    color: rgba(102, 97, 105, 0.938);
+    font-family: 'Montserrat', sans-serif;
     height: auto;
     text-align: center;
 }
