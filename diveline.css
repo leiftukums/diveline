@@ -1,8 +1,10 @@
 body{
     background-color: ;
     margin: 0;
+    height: 180vh;
+    width: auto;
     
-    background-image: linear-gradient( rgb(127, 148, 243), rgb(198, 198, 241), rgb(182, 182, 240));
+    background-image: linear-gradient( rgb(48, 81, 226), rgb(198, 198, 241), rgb(182, 182, 240));
     
     
 }
@@ -18,7 +20,7 @@ body h3,h4{
     padding: 0;
     width: 100%;
     /* border-bottom: .2px solid rgb(250, 248, 230) ; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Questrial', sans-serif;;
 }   
 nav ul{
     position: relative;
@@ -40,6 +42,7 @@ nav ul a{
     top: 30px;
     margin: 0 0 0 10px;
     padding: 0;
+    font-family: 'Questrial', sans-serif ;
     font-size: 3em;
     letter-spacing: 5px;
     color: rgb(22, 22, 65);
@@ -49,7 +52,7 @@ nav ul a{
 
 @keyframes diveline {
     0% {top: -10px; opacity: .1;}
-    50% {top: 130px; opacity: .5;}
+    50% {top: 130px; opacity: .5; color: white;}
     100% {top: 30px; opacity: 1; }
 }
 /*Info area*/
@@ -58,23 +61,24 @@ nav ul a{
     grid-auto-rows: ;
     grid-template-rows: 12em 8em 8em 12em 12em;
     grid-template-columns: 100%;
-    /* justify-content: space-evenly;
-    align-content: space-around; */
-}    
+    /* height: 100vh; */
+}
 #tides h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 1em auto .5em auto;
+    font-family: 'Questrial', sans-serif;
+    margin: 1em auto -.8em auto;
     height: 3em;
     text-align: center;
     color: rgb(32, 30, 30);
     letter-spacing: 2px;
+    font-size: 1.6em;
 }
-#info p{
+#tides p{
     margin: 0 1em 0 1em;
     height: 13em ;
     color: rgba(23, 24, 31, 0.76);
     letter-spacing: 1px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 #tides{
     display: grid;
@@ -82,37 +86,45 @@ nav ul a{
 }
 #tides a{
     text-decoration: none;
-    color: rgba(21, 22, 27, 0.76);
+    color: rgba(189, 181, 67, 0.76);
     height: 1em;
     font-style: oblique;
+    align-items: center;
 }
 #tides a:hover{
     color: white;
 }
 #schedule h4{
-    margin: 1em auto 0 auto;
+    margin: 1em auto -1em auto;
     height: 2em;
+    font-size: 1.6em;
+    font-family: 'Questrial', sans-serif;
     
 }
 #schedule p{
     position: relative;
     top: 2em;
+    margin-bottom: 30px;
     height: auto;
-}
-
-#schedule form {
     text-align: center;
-    position: relative;
-    width: 70%;
-    margin: auto;
-    height: auto;
-    top: 2em;
-    left: 1.4em;
 }
-
 #schedule{
     display: grid;
     grid-row: 2 / span 2;
+}
+form{
+    position: relative;
+    /* border: 1px solid blue; */
+    border-radius: 1em;
+    padding: 1em;
+    top: 20px;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    background-color: whitesmoke;
+    
 }
 form label{
     font-family: Arial, Helvetica, sans-serif;
@@ -125,6 +137,7 @@ form label{
 }
 form input{
     width: 90%;
+    height: 1.8em;
     align-items: center;
     background-color: rgb(237, 238, 253);
     margin: 2px auto 2px auto;
@@ -152,36 +165,62 @@ form #button {
 #about-us{
     display: grid;
     position: relative;
-    top: 4em;
+    top: 6em;
     grid-row: 4 / 5;
 
     color: rgba(234, 237, 255, 0.76);
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Questrial', sans-serif; */
 }
 #about-us h3{
     text-align: center;
-    margin: 1em auto 1.5em auto;
+    margin: .5em auto 0 auto;
     color: rgb(253, 253, 253);
     letter-spacing: 2px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Questrial', sans-serif;
+    height: 2em;
+    ;
 }
 #about-us p{
     margin: auto 1em auto 1em;
 
 }
 #gallery{
-    height: 12em;
-    width: 90%;
-    margin: auto;
-    align-content: center;
-    background-image: url(images/diver.jpg); 
-    background-position: center right;
+    position: relative;
+    top: 8em;
+    /* background-image: url(images/diver.jpg);  */
 } 
-
+#gallery p{
+    height: auto;
+    text-align: center;
+}
+#gallery img{
+    height: 8em;
+    width: 90%;
+    margin: 0 auto;
+    align-content: center;
+}
 #social{
     display: grid;
     grid-row: 7 / span 1;
-    
-    
+    position: relative;
+    top: 8em;
+    height: 2em;
+}
+#social p{
+    height: auto;
+    text-align: center;
+}
+#social a{
+    display: ;
+    height: 2em;
+    width: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+#social-links{
+    text-align: center;
+}
+#footer{
+    text-align: center;
 }
